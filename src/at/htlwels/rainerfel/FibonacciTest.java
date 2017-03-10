@@ -11,8 +11,6 @@ import static org.junit.Assert.assertEquals;
 public class FibonacciTest {
         @Test
         public void evaluatesExpression() {
-            Fibonacci fibonacci = new Fibonacci();
-            int sum = fibonacci.calculate(7);
-            assertEquals(13, sum);
+            assertEquals(8, Fibonacci.calculate(6));
         }
 }
